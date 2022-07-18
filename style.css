@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 5rem;
+    background: linear-gradient(45deg, deepskyblue, deeppink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
